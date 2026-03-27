@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Algorithm Visualizer</title>
+</head>
+<body>
+    <h1>Algorithm Visualizer</h1>
+    
+    <!-- Bubble Sort -->
+    <div class="algorithm">
+        <div class="name">
+            <h3>Bubble Sort</h3>
+            <button class="sortBtn" onclick="animateBubbleSort()">Start</button>
+            <button onclick="resetBubble()">Reset</button>
+        </div>
+        <div class="container">
+            <div class="element" id="b1">3</div>
+            <div class="element" id="b2">4</div>
+            <div class="element" id="b3">10</div>
+            <div class="element" id="b4">5</div>
+            <div class="element" id="b5">2</div>
+        </div>
+    </div>
+
+    <!-- Selection Sort -->
+    <div class="algorithm">
+        <div class="name">
+            <h3>Selection Sort</h3>
+            <button class="sortBtn" onclick="animateSelectionSort()">Start</button>
+            <button onclick="resetSelection()">Reset</button>
+        </div>
+        <div class="container">
+            <div class="element" id="s1">3</div>
+            <div class="element" id="s2">4</div>
+            <div class="element" id="s3">10</div>
+            <div class="element" id="s4">5</div>
+            <div class="element" id="s5">2</div>
+        </div>
+    </div>
+
+    <!-- Insertion Sort -->
+    <div class="algorithm">
+        <div class="name">
+            <h3>Insertion Sort</h3>
+            <button class="sortBtn" onclick="animateInsertionSort()">Start</button>
+            <button onclick="resetInsertion()">Reset</button>
+        </div>
+        <div class="container">
+            <div class="element" id="i1">3</div>
+            <div class="element" id="i2">4</div>
+            <div class="element" id="i3">10</div>
+            <div class="element" id="i4">5</div>
+            <div class="element" id="i5">2</div>
+        </div>
+    </div>
+
+    <!-- Quick Sort -->
+    <div class="algorithm">
+        <div class="name">
+            <h3>Quick Sort</h3>
+            <button class="sortBtn" onclick="animateQuickSort()">Start</button>
+            <button onclick="resetQuick()">Reset</button>
+        </div>
+        <div class="container">
+            <div class="element" id="q1">3</div>
+            <div class="element" id="q2">4</div>
+            <div class="element" id="q3">10</div>
+            <div class="element" id="q4">5</div>
+            <div class="element" id="q5">2</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
